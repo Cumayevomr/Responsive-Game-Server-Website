@@ -679,3 +679,27 @@ header.shadow{
     background: var(--hover-color);
     transition: 0.4s all linear;
 }
+/* Making Responsive */
+ @media screen and (max-width: 1050px) {
+    .container{
+        margin: 0 auto;
+        border-image-width: 92%;
+    }
+ }
+ @media screen and (max-width: 952px) {
+    .nav{
+        padding: 14px 0;
+    }
+    section{
+        padding: 3rem 0 2rem;
+    }
+    .home-slide{
+        min-height: 560px;
+    }
+    .games-content{
+        grid-template-columns: repeat(auto-fit, minmax(260px, auto));
+    }
+    .game-box-img{
+        height: 160px;
+    }
+ }
