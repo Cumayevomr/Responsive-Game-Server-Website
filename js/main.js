@@ -72,5 +72,5 @@ var swiper = new Swiper(".control-images", {
     navigation: {
         nextEl: ".swiper-button-next",
         prevEl: ".swiper-button-prev",
-    }
+    },
 });
