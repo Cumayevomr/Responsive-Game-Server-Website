@@ -12,7 +12,16 @@ let navbar = document.querySelector(".navbar")
 
 menu.onclick = () => {
     menu.classList.toggle("move");
+    navbar.classList.toggle("open-menu");
+    dropLogin.classList.remove("drop-login-open");
 };
+
+// One scroll Remove Menu
+window.onscroll = () => {
+    menu.classList.remove("move");
+    navbar.classList.remove("open-menu");
+    dropLogin.classList.remove("drop-login-open");
+}
 
 // Header Background Change
 let header = document.querySelector("header");
