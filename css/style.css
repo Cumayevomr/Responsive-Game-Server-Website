@@ -829,4 +829,15 @@ header.shadow{
     .prices-subtitle{
         font-size: 0.9rem;
     }
+    .prices-title{
+        font-size: 1.6rem;
+    }
+    .price-box-img{
+        width: 90px;
+    }
+   }
+   @media screen and (max-width: 316px) {
+    .navbar{
+        width: 100%;
+    }
    }
