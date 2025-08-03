@@ -744,3 +744,32 @@ header.shadow{
         background: var(--body-color);
     }
  }
+ @media screen and (max-width: 750px) {
+    .home-slide{
+        min-height: 500px;
+    }
+    p{
+        font-size: 0.875rem;
+    }
+    .slide-title{
+        font-size: 1.7rem;
+    }
+    .slide-description,
+    .ser-box p,
+    .control-text p,
+    .faq-text p {
+        font-size: 0.875rem;
+    }
+    .heading,
+    .accordion-title h2,
+    .control-title {
+        font-size: 1.5rem;
+    }
+    .footer{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .prices-text{
+        padding-top: 3rem;
+        padding-bottom: 1rem;
+    }
+ }
